@@ -64,9 +64,5 @@ The `reflect.txt` file is included in the repository and reflecting on the proje
 
 - **Author**: Ashwin B N
 - **Institution**: Seneca College
-- **Course**: IPC144
-
-
-
-
----
+- **Course**: OOP345
+  
