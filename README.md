@@ -14,6 +14,8 @@ Welcome to the Assembly Line Simulation Project! This project is a final assignm
 
 The project aims to simulate an assembly line with multiple workstations. Each station holds a set of specific stock items and is responsible for processing customer orders by filling the orders with the items requested. Orders are processed along the line until they are either completed or left incomplete due to a lack of inventory.
 
+![assembly-line](/img/assemblyline.jpg)
+
 ## Project Structure
 
 The project is divided into three milestones:
