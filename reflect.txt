@@ -1,0 +1,50 @@
+// Name: Ashwin B N
+// Seneca Student ID: 112763222
+// Seneca email: abharathan-nettoor@myseneca.ca
+// Date of completion: 03-04-2024
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+
+Reflecting on the development process of this project, it's evident that a 
+systematic approach was taken to design and implement the various components. 
+The project is structured around a modular architecture, with each class 
+responsible for a specific aspect of the assembly line management system. 
+
+Starting with the `Utilities` class, it provides essential utility functions 
+such as token extraction and trimming of strings. This class encapsulates 
+functionalities that are reused across different components of the system, 
+promoting code reusability and maintainability.
+
+Moving on to the `Station` class, it represents individual stations in the 
+assembly line. Each station has attributes like station ID, item name, description, 
+etc. The class offers methods to retrieve and update station information, 
+demonstrating encapsulation and abstraction principles.
+
+The `CustomerOrder` class manages customer orders, storing details such as 
+customer name, product, and a list of items to be processed. It offers functionalities
+to check order and item fulfillment status, fill items at specific stations, and display 
+order details. The implementation uses dynamic memory allocation for the list of 
+items, reflecting flexibility in handling variable-sized data.
+
+The `Workstation` class represents a workstation in the assembly line, capable of 
+processing customer orders. It maintains a queue of orders to be processed and 
+implements methods for order processing and movement. This class encapsulates 
+order processing logic, adhering to the Single Responsibility Principle.
+
+Finally, the `LineManager` class orchestrates the operation of the entire assembly 
+line. It reads station configuration from a file, organizes stations into a sequence, 
+and manages the flow of customer orders through the line. The class offers methods 
+to reorder stations based on dependencies and execute one iteration of operations 
+on all workstations.
+
+Throughout the development process, adherence to coding standards, documentation, 
+and version control practices was evident. Each class is accompanied by header and 
+implementation files, facilitating code organization and maintenance. Additionally, 
+meaningful comments and clear naming conventions enhance code readability and 
+comprehension.
+
+In summary, this project demonstrates a structured and systematic approach to 
+software development, encompassing principles of modularity, encapsulation, 
+abstraction, and adherence to coding standards.
